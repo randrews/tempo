@@ -1,0 +1,15 @@
+ltaglib - a TagLib wrapper for Lua
+
+To install this, you'll need Lua 5.1 headers and TagLib.
+On a Debian-based Linux system, this means the packages:
+
+   libtag1-dev
+   liblua5.1-0
+
+This builds a ltaglib.so, which you can add to a directory in Lua's package.cpath and load with:
+
+     require('ltaglib')
+
+Full documentation on using the wrapper is at:
+
+     http://github.com/randrews/ltaglib
